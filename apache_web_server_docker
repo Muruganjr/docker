@@ -41,3 +41,6 @@ create a html file in the same dir apache_docker
 check with
 # docker ps -a
 access with http://server_ip:8082
+
+To login to the container
+# docker run --name myapache --rm -i -t myapache bash
