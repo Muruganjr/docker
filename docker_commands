@@ -1,0 +1,124 @@
+To get version of docker
+# docker --version
+
+To pull images from the docker repository/hub
+# docker pull <image_name:version>
+
+To create/build a image from docker file
+# docker build -t <image_name> .
+
+To create a container from an image
+# docker run -it -d <image name>
+
+To list the running containers
+# docker ps 
+
+To show all the running and exited containers
+# docker ps -a
+
+To access the running container
+# docker exec -it <container_id> bash
+
+To stop a running container
+# docker stop <container_id>
+
+To kill the container by stopping its execution immediately
+# docker kill <container_id>
+
+To create new image of an edited container on the local system
+# docker commit <conatainer id> <username/imagename>
+
+To login to the docker hub repository
+# docker login
+
+To push an image to the docker hub repository
+# docker push <username/image name>
+
+To list all the locally stored docker images
+# docker images
+
+To delete a stopped container
+# docker rm <container_id>
+
+To delete an image from local storage
+# docker rmi <image_id>
+
+To Restart the docker container with container id
+# docker restart <container_id>
+
+To Stop a container with container id
+# docker stop <container_id>
+
+To start the docker container with container id
+# docker start <container_id>
+
+To list the details of all the network
+# docker network ls
+
+To display network related commands
+# docker network
+
+To get information about docker installed
+# docker info
+
+To Copy file from a docker container to the local system
+# docker cp <containerId>:/tmp/sample.txt /home/dhana/Documents/
+
+To copy file from local system to docker container
+# docker cp sample.txt container_id:/tmp
+
+To show the history of a docker image
+# docker history <image_name>
+
+To show the logs of the docker container
+# docker logs <container_id>
+
+To search for a docker image on dockerhub
+# docker search <image_name>
+
+To create a volume
+# docker volume create
+
+To logout from docker hub
+# docker logout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
