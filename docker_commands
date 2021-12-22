@@ -82,43 +82,5 @@ To create a volume
 To logout from docker hub
 # docker logout
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+To Inspect changes to files or directories on a container’s filesystem
+# docker diff container
