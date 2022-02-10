@@ -1,4 +1,4 @@
-__Installing Docker from Default Repositories__
+:red_square: __Installing Docker from Default Repositories__
 update the server
 ```
 # sudo apt update
