@@ -17,8 +17,8 @@ Installing the Docker Repository
 # sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
 Installing the Latest Docker
-```
-update 
+
+update the server 
 ```
 # sudo apt update
 ```
