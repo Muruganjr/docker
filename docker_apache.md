@@ -1,5 +1,5 @@
 Docker file for Apache2
-``
+```
 $ sudo vim Dockerfile
 ```
 ```
