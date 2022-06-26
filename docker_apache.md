@@ -1,6 +1,7 @@
 Docker file for Apache2
-```
+
 vim Dockerfile
+```
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
@@ -16,7 +17,7 @@ build the docker image
 ```
 # docker build -t apache2 .
 ```
-create the container with name myapache
+create the container with name myapache to run in port 8086
 ```
 # docker run -d --name myapache -p 8086:80 apache2
 ``
