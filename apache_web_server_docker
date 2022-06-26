@@ -37,10 +37,10 @@ create a html file in the same dir apache_docker
 :wq! save and exit
 
 # docker build -t myapache .
-# docker run -d --name apache_demo -p 8082:8080 myapache
+# docker run -d --name apache_demo -p 8089:80 myapache
 check with
 # docker ps -a
-access with http://server_ip:8082
+access with http://server_ip:8089
 
 To login to the container
 # docker exec -it name_of_container /bin/bash
