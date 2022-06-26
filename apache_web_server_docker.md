@@ -35,6 +35,7 @@ create a html file in the same dir apache_docker
 ```
 $ sudo vim index.html
 ```
+```
 <!DOCTYPE html>
 <html>
 <body>
