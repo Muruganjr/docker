@@ -1,6 +1,7 @@
 Docker file for Apache2
-
-vim Dockerfile
+``
+$ sudo vim Dockerfile
+```
 ```
 FROM ubuntu:latest
 ENV DEBIAN_FRONTEND=noninteractive
