@@ -20,7 +20,7 @@ access portainer
 ```
 https://server_ip:9443
 ```
-default user is admin
+default user is admin \
 set user password
 
 
